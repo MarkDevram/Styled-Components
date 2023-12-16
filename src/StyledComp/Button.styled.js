@@ -8,10 +8,16 @@ export const Styledbutton = styled.button`
       return "orange"
     }
   }};
+
   border: 5px solid black;
   border-radius: 7%;
   margin-left: 20px;
   font-size: 50px;
   text-align: center;
   cursor: pointer;
+`
+
+export const FansyButton = styled(Styledbutton)`
+  cursor: progress;
+  border: none;
 `
