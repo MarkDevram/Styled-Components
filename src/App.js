@@ -1,7 +1,8 @@
 import "./App.css"
-import { Styledbutton } from "./StyledComp/Button.styled"
+import { Styledbutton, SubmitButton } from "./StyledComp/Button.styled"
 import { FansyButton } from "./StyledComp/Button.styled"
 import { HoveredButton } from "./StyledComp/Button.styled"
+import { SubButton } from "./StyledComp/Button.styled"
 function App() {
   return (
     <div className="app">
@@ -10,6 +11,8 @@ function App() {
       <Styledbutton varient="pink">button</Styledbutton>
       <FansyButton>button</FansyButton>
       <HoveredButton>Hover Me</HoveredButton>
+      <SubmitButton>Submit Button</SubmitButton>
+      <SubButton>Submit Button</SubButton>
     </div>
   )
 }

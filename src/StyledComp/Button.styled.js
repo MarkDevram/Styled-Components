@@ -32,3 +32,18 @@ export const HoveredButton = styled(Styledbutton)`
     font-size: 40px;
     text-align: center;
 `
+export const SubmitButton = styled(Styledbutton).attrs({
+  type: "submit",
+  as: "a",
+})`
+  color: black;
+  border: 2px solid orange;
+  margin-left: 10px;
+  font-size: 40px;
+`
+export const SubButton = styled.button.attrs({ type: "submit" })`
+  color: black;
+  border: 2px solid orange;
+  margin-left: 10px;
+  font-size: 40px;
+`
